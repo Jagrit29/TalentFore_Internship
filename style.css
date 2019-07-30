@@ -18,14 +18,29 @@
 .main
 {
     margin: 0px auto;
-    margin-top: 130px;
+   margin-top: 50px;
 }
 ul
 {
-    text-align: center;
-    list-style-position: inside;
 }
 .link
+{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform:capitalize;
+    color: #666666;
+}
+.main li
+{
+    margin-left: -45;
+    list-style-position: inside;
+}
+a:hover{
+    color: coral;
+}
+h4
 {
     font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
     font-size: 18px!important;
@@ -34,10 +49,7 @@ ul
     text-transform:capitalize;
     color: #666666;
 }
-li
+.admin , .ind , .partner 
 {
-    padding: 10px;
-}
-a:hover{
-    color: coral;
+    border-right: 1px solid grey;
 }
