@@ -23,6 +23,10 @@
 ul
 {
 }
+.links
+{
+    margin-left: 150px;
+}
 .link
 {
     font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
@@ -49,7 +53,11 @@ h4
     text-transform:capitalize;
     color: #666666;
 }
-.admin , .ind , .partner 
+.admin , .ind , .partner , .resume
 {
     border-right: 1px solid grey;
+}
+.admin , .ind , .partner , .invited , .resume
+{
+    padding-right: 20px;
 }
